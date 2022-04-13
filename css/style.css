@@ -1,0 +1,72 @@
+/*Set minimum window size to preserve the desired design*/
+html{
+    min-width: 750px;
+    color: #06aa48;
+}
+/* Header*/
+header .upper-header{
+    display: flex;
+    background-color: #05903d;
+}
+/*Header Logo and Slogan*/
+header .upper-header div:first-child{
+    flex-grow: 1;
+    width: auto;
+}
+/*Header Logo*/
+header .upper-header div:first-child img{
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.611);
+}
+/*Header Slogan*/
+header .upper-header div:first-child h2{
+    margin-left: 20px;
+    color: #f6f6f6;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.611);
+}
+/*Header Search Bar*/
+header .upper-header div:nth-child(2){
+    width: auto;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 70px;
+}
+header .upper-header div:nth-child(2) input{
+    height: 30px;
+    width: 400px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.611);
+}
+header .upper-header div:nth-child(2) button{
+    height: 35px;
+    width: 35px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.611);
+}
+/*Header Nav Bar*/
+header .lower-header{
+    text-align: right;
+    margin-right: 10%;
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 40px;
+    border-bottom: 3px solid black;
+}
+header .lower-header nav a{
+    padding: 40px;
+    text-decoration: none;
+}
+/*Nav bar Icons*/
+header .lower-header nav i{
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+/*footer*/
+footer{
+    border-top: 3px solid black;
+    margin-top: 5px;
+    background-color: #05903d;
+    height: 50px;
+}
