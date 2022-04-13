@@ -63,6 +63,60 @@ header .lower-header nav i{
     margin-top: 10px;
 }
 
+/*Product image*/
+section.product .product-images{
+    display: flex;
+    width: 50%;
+    height: 600px;
+}
+section.product div.product-images figure img{
+    height: 80%;
+    width: 90%;
+    min-width: 250px;
+    border: 5px solid black;
+    margin-top: 10%;
+    box-shadow: 3px 2px #888888;
+}
+/*Product smaller images list*/
+section.product div.product-images ul li img{
+    height: 120px;
+    width: 120px;
+    padding: 18px;
+}
+section.product div.product-images ul li img:hover{
+transform: scale(1.2);
+}
+section.product div.product-images ul li{
+    list-style: none;
+    border: 2px solid #888888;
+    box-shadow: 3px 2px #888888;
+    margin: 2px 3px;
+}
+/*T-shirt Color options*/
+/*Create circles to showcase the available colors*/
+main section div .tshirt-color {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+}
+/*Set circles to apropriate colors, and make the selection grow when mouse hover*/
+main .product-image div .tshirt-color:hover{
+    transform: scale(1.2);
+}
+.sample-color span:nth-of-type(1) {
+    background-color: black;
+}
+.sample-color span:nth-of-type(2) {
+    background-color: pink;
+}
+.sample-color span:nth-of-type(3) {
+    background-color: red;
+}
+.sample-color span:nth-of-type(4) {
+    background-color: darkblue;
+}
 /*footer*/
 footer{
     border-top: 3px solid black;
