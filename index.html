@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <!--Custom Google Fonts-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Karla&family=Quicksand&display=swap" rel="stylesheet">
     <!--Add Fontawesome-->
     <script src="https://kit.fontawesome.com/ff0cf70541.js" crossorigin="anonymous"></script>
 </head>
@@ -62,17 +64,67 @@
                     <span class="tshirt-color"></span>
                     <span class="tshirt-color"></span>
                 </div>
-                <div>
+                <div class="size">
                     <h4>Available sizes:</h4>
                     <span class="tshirt-size">xs</span>
-                    <span class="tshirt-size">s</span>
-                    <span class="tshirt-size">m</span>
-                    <span class="tshirt-size">l</span>
+                    <span class="tshirt-size">s </span>
+                    <span class="tshirt-size">m </span>
+                    <span class="tshirt-size">l </span>
                     <span class="tshirt-size">xl</span>
                 </div>
+                <div>
+                    <form action="index.html" method="get">
+                        <label for="qty">Qty:</label>
+                        <input type="number" id="qty" name="qty" min="0" max="10">
+                        <button type="submit">Add to Cart</button> 
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <ul class="similar">
+                    <h1>You may also like:</h1>
+                    <li>
+                        <img src="./img/jeans.jpg">
+                        <p>Men's regular jeans</p>
+                        <p>price $24.00 cad</p>
+                    </li>
+                    <li>
+                        <img src="./img/pajama.jpg">
+                        <p>Long Pajama Top</p>
+                        <p>price $26.00 cad</p>
+                    </li>
+                    <li>
+                        <img src="./img/long.jpg">
+                        <p>Long sleeve casual shirt</p>
+                        <p>price $45.90 cad</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="reviews">
+            <h1>See what our customers think about this product:</h1>
+            <div>
+                <h2>Best fitting shirt <small>by Rick</small></h2>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></p>
+                <p>I'm 5'10 and a 160 lbs and it's hard for me to find a good shirt that is fitted. These shirts fit perfect. Even out of the dryer , this shirt does not lose it's shape and the price is a no brainer. My size is a medium.</p>
+            </div>
+            <div>
+                <h2>Perfect T-Shirt by Nic <small>by Nick</small></h2>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p>The best t-shirts I have worn. I’m slim and the fit it great. They don’t shrink much at all in the dryer either. The shirt it light, comfortable, and durable. Best of all they don’t cost much!</p>
+            </div>
+            <div>
+                <h2>Good t-shirts but they do shrink <small>by James</small></h2>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></p>
+                <p>The heather fabric has a nice soft feel and appearance. There are some really neutral nice colours too. They do shrink in the wash, so I buy a large which shrinks to a medium relaxed fit. I also like that the collar isn't too large/loose around my neck, unlike the thinner "poly-cotton" model. We have had some issues with defective seams coming undone, but Wordans has been helpful in providing warranty.</p>
             </div>
         </section>
     </main>
 </body>
-<footer><a href='https://www.freepik.com/vectors/supermarket-logo'>Supermarket logo vector created by freepik - www.freepik.com</a></footer>
+<footer>
+        <a href='https://www.freepik.com/vectors/supermarket-logo'>Supermarket logo vector created by freepik - www.freepik.com</a>
+        <p><small><i class="fa-solid fa-copyright"></i> Copyright 2022 genericstore.ca - All Rights Reserved</small></p>
+</footer>
 </html>
